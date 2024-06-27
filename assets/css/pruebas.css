@@ -1,0 +1,23 @@
+.contenedor{
+    width: 80%;
+    padding: 5px;
+    background-color: aqua;
+    height: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+.ancho25{
+    background-color: yellow;
+    width: 23%;
+    float:left;
+    margin: 2px;
+    padding: 3px
+    
+}
+.ancho33{
+    background-color: red;
+    width:25%;
+    float:left;
+    margin: 1px;
+    padding: 4px;
+}

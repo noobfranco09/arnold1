@@ -1,0 +1,150 @@
+/*
+CSS:Cascade style sheet==> Hojas de estilo en cascada.
+Apariencia y distribución del sitio
+*/
+body {
+  background-color: grey;
+  padding: 0%;
+  margin: 0%;
+}
+.cabecera {
+  padding: 2%;
+  text-align: center;
+}
+.logo {
+  width: 10%;
+  border-radius: 50%;
+}
+h1 {
+  color: black;
+  /*color de fente*/
+  /*color de fondo de la caja*/
+  /*Ancho del marco interno*/
+  /*Redondeo de los bordes de la caja*/
+  /*Alineación del texto contenido*/
+  /*Color del borde de la caja*/
+  /*Ancho y color del borde*/
+}
+.art {
+  text-align: center;
+}
+.serv {
+  text-align: center;
+}
+.especial {
+  background-color: brown;
+  color: black;
+  text-align: center;
+}
+/*Diagramación del sitio*/
+/*.contenedor {
+  width: 1200px; ancho de la capa contenedora
+  background-color: grey;
+  margin: 0 auto; Centra el contenedor
+  padding: 5px;
+  height: 1000px; */ /*medidas absolutas (px) no se deben aplicar*/
+
+.contenedor {
+  /*ancho de la capa contenedora*/
+  /*Centra el contenedor*/
+}
+.principal {
+  width: 60%;
+  float: left; /*maquetación flotante a la izquierda*/
+  margin: 1%;
+  background-color: aliceblue;
+  border: solid black;
+  border-radius: 30px;
+  padding: 1%;
+}
+
+.lateral {
+  width: 30%;
+  float: left;
+  margin: 1%;
+  background-color: gainsboro;
+  border: solid black;
+  border-radius: 30px;
+  padding: 1%;
+}
+.lateral1 {
+  width: 15%;
+  float: left;
+  margin: 1%;
+  background-color: transparent;
+}
+.piedepagina {
+  clear: both;
+  background-color: #3e6af4;
+  padding: 30px;
+  width: 100%;
+  height: 100px;
+}
+.info {
+  width: 25%;
+  float: left;
+}
+.redes {
+  width: 25%;
+  float: left;
+}
+.piedepagina > .redes > a > .img3 {
+  width: 15%;
+  margin: 5%;
+}
+.piedepagina > .redes > a > .img4 {
+  width: 15%;
+  margin: 5%;
+}
+/*Diagramación del menú*/
+.menu {
+  background-color: rgb(182, 13, 13);
+  padding: 1%;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 98%;
+  margin: 1%;
+  border-radius: 15px;
+}
+.menu > ul > li {
+  display: inline;
+  margin: 1%;
+  list-style: none;
+}
+.menu > ul > li > a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  margin: 1%;
+}
+/*reacciona con el cursor*/
+.menu > ul > li > a:hover {
+  color: white;
+  font-size: 2em;
+  /*medida relativa para fuentes(em)*/
+}
+.body {
+  @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+  font-family: "Roboto Mono", monospace;
+}
+
+.img1 {
+  width: 70%;
+  border-radius: 15px;
+}
+.img2 {
+  width: 70%;
+  border-radius: 15px;
+}
+.text {
+  text-align: center;
+  width: 10%;
+  float: left;
+  padding: 15px;
+}
+/*--------------------------------------contacto--------------------------*/
+form {
+  text-align: center;
+}
+.lulo {
+  text-align: center;
+}
